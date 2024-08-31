@@ -1,0 +1,40 @@
+Name: Matheus H Hipolito
+Date Created: August 26, 2024
+
+Program Description:
+This program is designed to pre-sell cinema tickets. There are 20 tickets available, and each buyer can purchase up to 4
+tickets. The program frequently prompts users to input how many tickets they want to buy, checks if the input is valid,
+and continues this process until all tickets are sold. Finally after the sale is complete, the program displays the total
+number of buyers.
+
+Logical Steps:
+1. Initialize the total number of available tickets (MAX_TICKETS) and the maximum number of tickets a single buyer can
+purchase (MAX_TICKETS_PER_BUYER).
+2. Set up variables to keep track of the remaining tickets (remaining_tickets) and the total number of buyers (total_buyers).
+3. Enter a loop that continues until there are no remaining tickets.
+4. Display the current number of remaining tickets.
+5. Prompt the user to enter the number of tickets they wish to buy.
+6. Check if the input is a valid number.
+7. If the input is valid, convert it to an integer and check if it falls within the allowed range (between 1 and the
+minimum of MAX_TICKETS_PER_BUYER and remaining_tickets).
+8. If the input is within the allowed range, subtract the requested number of tickets from remaining_tickets and
+increment total_buyers by 1.
+9. If the input is not valid or not within the allowed range, display an error message and prompt the user to enter a
+valid number.
+10. After all tickets are sold, exit the loop and display the total number of buyers.
+
+Variables:
+1. MAX_TICKETS: The total number of tickets available for sale. (Value: 20)
+2. MAX_TICKETS_PER_BUYER: The maximum number of tickets that a single buyer can purchase. (Value: 4)
+3. remaining_tickets: Tracks how many tickets are still available for sale. (Initial Value: 20)
+4. total_buyers: Tracks the total number of buyers who have purchased tickets. (Initial Value: 0)
+5. tickets_requested: Stores the number of tickets the current buyer requests. (Value is determined by user input)
+
+Functions:
+1. Function Name: sell_tickets
+Description: Manages the entire ticket-selling process, including input validation, ticket allocation, and tracking the
+total number of buyers.
+Parameters: None
+Returns: None
+
+Link to repository: https://github.com/matheusv95/Programming-Concepts-II-REPO
