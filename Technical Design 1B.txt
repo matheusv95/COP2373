@@ -1,0 +1,30 @@
+Name: Matheus H Hipolito
+Date Created: August 31, 2024
+
+Program Description:
+This program simulates a Magic 8 Ball, a toy that provides random answer to yes/no questions. The program first creates
+a file containing a set of predefined responses, then allows the user to ask yes/no questions and receive random responses
+until user choose to quit.
+
+Logical Steps:
+1. Create a list with possible responses.
+2. Read the responses from the file into a list.
+3. Make the user to ask yes/no question.
+4. Randomly select a response from the list and display to the user.
+5. Repeat process until user types "quit".
+
+Variables:
+1. Responses: A list containing all the predefined Magic 8 Ball responses.
+2. file: The file object used to write the responses to '8Ball_responses.txt'.
+3. Question: A string that stores the user yes/no question.
+4. Response: A randomly selected response from the 'responses' list.
+
+Functions:
+1. Function Name: 'create_responses_file'.
+Description: Reads responses from the '8ball_responses.txt' file, ask the user for a yes/no question, and displays a
+randomly selected response. The function will continue until user type 'quit'.
+2. Function Name: 'magic_8_ball'.
+Description: Reads responses from the '8ball_responses.txt' file, ask the user for yes/no question, and displays a
+randomly selected response. Function will continue until user type 'quit'.
+
+Link to repository:
