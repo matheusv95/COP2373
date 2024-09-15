@@ -1,0 +1,42 @@
+Matheus H Hipolito
+Date: September 15, 2024
+
+Program Description:
+This program scans an email message entered by the user for common spam words. Then it calculates a spam score by counting
+how many words or phrases appear in the message. Then based on the score, it rates how likely the message is spam. It also
+shows the user which specific spam words were found in the message.
+
+Logical Steps:
+1. Create a list of 30 common spam words/phrases.
+2. Asks the user to put an email message.
+3. Check the message for spam words by:
+Searching for each spam word in the message.
+Adding a point to the spam score for every spam word found.
+4. Rate the likelihood of the message being spam based on the total spam score.
+5. Display the spam score to the user.
+6. Show the user the spam words found in the message if there are any.
+
+Variable:
+1. spam_score: Integer that stores how many spam words were found in the message.
+2. matched_words: A list that stores the spam words that were found in the message.
+3. email_message: A string that stores the email message entered by the user.
+4. SPAM_WORDS: A constant list (in all UPPERCASE) that holds 30 common spam words and phrases to look for in the email.
+
+Functions:
+1. check_for_spam(message):
+This function takes the email message and the list of spam words inputs.
+Checks if each spam word is in the email message and counts how many finds.
+Returns the spam score and a list of matched spam words.
+2. rate_spam:
+This function takes spam score as input and returns a string that tell how likely the message is spam based on score.
+It checks if each spam word is in the email message  and counts how many it finds.
+Returns the spam score and a list of matched spam words.
+3. main():
+Sets the list of spam words.
+Asks the user to enter their email.
+Calls the check_for_spam function to get the spam score and matched words.
+Calls the rate_spam function to determine how likely the message is spam.
+Prints the results.
+
+Link to COP2373 Repository:
+https://github.com/matheusv95
