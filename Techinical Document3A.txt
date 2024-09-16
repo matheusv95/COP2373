@@ -1,0 +1,35 @@
+Name: Matheus H Hipolito
+Date: 09-16-2024
+
+Program Description:
+This program collects monthly expenses from user, including the type of expense and the amount, and then calculates and
+displays the total expense, and also identifies the highest and lowest expense according to their response.
+
+Logical Steps:
+1. Input collection:
+Continuously ask the user to enter the type and amount of each expense until the user types "done".
+Store each expense as a tuple in a list called expenses.
+2. Calculations:
+Total expense: Use the reduce function with an add_expenses function to sum all the expenses amounts.
+Highest expense: Use the reduce function with a find_max function to determine the expense with the highest amount.
+Lowest expense: Use the reduce function with a find_min function to determine the expense with the lowest amount.
+3. Output:
+Print the total expense.
+Print the highest expense, including its type and amount.
+Print the lowest expense, including its type and amount.
+
+Variables:
+Expenses: List of tuples, where each contains the type of expense and its amount.
+total_expense: Float, representing the total of all expense amounts.
+highest_expense: Tuple, containing the type and amount of the highest expense.
+lowest_expense: Tuple, containing the type and amount of the lowest expense.
+
+Functions:
+Function name: add_expenses(acc, expense):
+Description: Accumulates the total expense by adding the amount of each expense to the accumulator.
+Function name: find_max(expense1, expense2):
+Description: Compares two expenses and returns the one with the greater amount.
+Function name: find_min(expense1, expense2):
+Description: Compares two expenses and returns the one with the less amount.
+
+Link to Repository: https://github.com/matheusv95/COP2373
