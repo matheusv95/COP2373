@@ -1,0 +1,25 @@
+Name: Matheus H Hipolito
+Date: 10/19/2024
+Program Description:
+This program validates users input for their phone number, social security numbers(SSN), amd zip codes using regular expressions.
+The program will ask users for their phone number, SSN, zip code, and then displays whether the input is valid or not.
+Phone number format: (123) 456-7890
+SSN format: 123-45-6789
+Zip code format: 12345
+Logical Steps:
+1. Define validation functions using regular expressions for each type of input.
+2. Create a main function to ask the user for input and validate.
+3. Use the re.match() function to check if the input matches the required patterns.
+4. Display whether each input is valid or not.
+Variables:
+phone: stores the user input for the phone number.
+ssn: stores the user input for social security number.
+zip_code: stores the user input for the zip code.
+Functions:
+validate_phone(phone): Validates the phone number using a regular expression.
+validate_ssn(ssn): Validates social security numbers using a regular expression.
+Validate_zip(zip_code): Validates zip codes using a regular expression.
+main(): Takes user input and calls the validation functions to display the results.
+Link to Repository:
+https://github.com/matheusv95
+
