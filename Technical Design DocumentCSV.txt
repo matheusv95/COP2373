@@ -1,0 +1,25 @@
+Name: Matheus H Hipolito
+Date: 10/26/2024
+    Program Description:
+This program is created to instructor store and review student exam scores. The instructor can input each student name and
+three test grades, which will be saved in a CSV file. After saving the data, the program can read and display it in a table format.
+    Logical Steps:
+Prompt the Instructor: Ask for the number of students.
+Collect Student Data: For each student: Get student first and last name, and get three exam grades.
+Write Data to CSV: Save each student information.
+Read and Display Data: Open grades.csv and display the saved information in a table format.
+    Variables:
+num_students: Stores the number of students the instructor wants to enter.
+first_name: Stores each student first name.
+last_name: Stores each student last name.
+exam1: Stores the first exam grade for student.
+exam2: Stores the second exam grade for the student.
+exam3: Stores the third exam grade for the student.
+file:open CSV file for writing or reading data.
+writer: Used to write data to grades.csv.
+reader:Used to read data from grades.csv.
+    Functions:
+write_grades(): Prompts for student data and writes it to grades.csv.
+display_grades(): Reads and display data from grades.csv in a table.
+    Link to Repository:
+https://github.com/matheusv95
