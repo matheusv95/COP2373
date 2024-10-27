@@ -1,0 +1,17 @@
+Name: Matheus H Hipolito
+Date: 10/27/2024
+    Program Description:
+This program allows the user to input any number of sentences, including sentences that begins with a number. When typed "Done",
+the program will stop and display all sentences, and also shows the total number of sentences entered.
+    Logical Steps:
+Sentences: Create an empty list called sentences to store all entered sentences.
+Asks for input: Use a loop to continuously ask user to enter a sentence.
+Check for termination: after each input, check if the input matches "Done", if it does, exit the loop/
+Store sentences: If the input is not "Done", add the sentences to the 'sentence' list.
+Display results: After exit the loop, display each sentence on a new line, followed by the total number of sentences entered.
+    Variables:
+Sentences: Stores all sentences entered by the user.
+    Functions:
+main(): Manages the sentences input process, checks for the termination condition, stores sentences, and displays the final.
+    Link to Repository:
+https://github.com/matheusv95/COP2373
