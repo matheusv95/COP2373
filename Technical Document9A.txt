@@ -1,0 +1,30 @@
+Matheus H Hipolito
+Date Created: 11/01/2024
+Program Description:
+This program creates a BankAcct Class that contains the username, account number, amount and interest rate. The class should
+allow users to manage their finances by the help with depositing, withdrawing, adjusting interest rate and checking the balance.
+Logical Steps:
+BankAcct- Define the class with the required attributes(name, account number, amount, interest rate).
+__init__- Create a method to initialize these attributes.
+Deposit- Method to add funds to the account.
+Withdraw- method to deduct funds from the account if sufficient funds exists.
+adjust_interest_rate- Method to set a new interest rate.
+get_balance- method to return users current balance.
+calculate_interest- method to calculate interest over a specific number of days.
+__str__- Method to format account details as a string.
+test_bank_acct- Function to test each method and print the results.
+Variables:
+name- Stores the account holder's name.
+account_number- Stores the account number.
+amount- Stores the current balance of the account.
+interest_rate- Stores the annual interest rate as a decimal.
+Functions:
+__init__- Starts the bank account attributes.
+adjust_interest_rate- Changes the interest rate to a specified new rate.
+deposit- Adds a positive amount to the current balance.
+withdraw- Deducts a specific amount from the balance if funds are available.
+get_balance- Returns the current balance.
+calculate_interest- Calculate interest based on a number of days and the interest rate.
+__str__- Formats account details.
+Link to Repository:
+https://github.com/matheusv95
