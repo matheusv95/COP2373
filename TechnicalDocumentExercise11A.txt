@@ -1,0 +1,26 @@
+Name: Matheus H Hipolito
+Date: 11/16/2024
+Program Description:
+This program simulates a simple Poker hand game. This program deals an initial hand of five cards for the user. The user is then asked
+to select which cards to place by entering the position of the cards. Then selected cards are replaced with the new ones
+from the deck, and finally the final hand is displayed.
+Logical steps:
+1. Create Card and Deck classes to represent the cards and deck.
+2. Define methods for shuffling the deck and specified number of cards.
+3. Implement a function display_hand() to show the user's current hand.
+4. Write the main() function:
+Variables:
+Suit- Represents the suit of a card
+Rank- Represents the rank of a card
+Cards- a list of card objects representing the full deck
+hand- A list of card objects representing the player's current hand
+replace_input- a string capturing user input for card positions to replace
+positions- a list of integers indicating the indices of cards to be replaced
+Functions:
+__init__() - Initializing card and deck object
+__str__(): Method in the card class that returns a string representation of the card
+shuffle(): Method in the deck class that shuffles the deck
+deal(num): Deals num cards from the top of the deck
+display_hand(hand): Function that prints each card in the player's hand with position numbers.
+Link to Repository:
+https://github.com/matheusv95
