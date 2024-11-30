@@ -1,0 +1,25 @@
+Name: Matheus H Hipolito
+Date: 11/25/2024
+Program Description: This python program simulates population growth for 10 cities in Florida over 20 years. The user can also
+view the population trends for a city using a line graph.
+Logical Steps:
+Database Creation- Create a SQlite database named population_MH.db
+Define a table named population with city, year, and population.
+Initial Data Insertion- Populate the table with 2023 data for the 10 cities in Florida.
+Simulate Population Growth- Calculate population Growth at a rate of 2% per year for the next 20 years.
+Insert the calculated data into the database.
+User Interaction and Visualization- Present the list of cities to the user.
+Allows the user to select a city and display its popular growth as a graph.
+Repeat until user exit.
+Variables:
+db_name - Stores the name of the SQLite database file.
+initial_data - Holds the 2023 population data of cities.
+city - Stores the selected city name
+population - Tracks population values for calculations.
+years - Stores years for graph plotting.
+Functions:
+create_database(): creates the SQLite database and table.
+insert_initial_data(): Inserts the initial data for 10 cities.
+simulate_population_growth(): Simulates population growth over 20 years.
+display_population_growth(): Allows user interaction and display graphs.
+Link to repository: https://github.com/matheusv95
